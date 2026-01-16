@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Zip Solver",
+  "version": "1.0",
+  "description": "Automated solver for the LinkedIn Zip game.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

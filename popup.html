@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html><head><style>
+body{width:350px;padding:10px;font:14px Arial;text-align:center}
+#status{margin-bottom:10px;font-weight:bold}
+canvas{border:1px solid #ccc;background:#fafafa;display:block;margin:0 auto}
+.controls{margin-top:15px;display:flex;justify-content:center;gap:10px}
+input{width:50px;padding:5px;text-align:center}
+button{background:#0073b1;color:#fff;border:none;padding:8px 16px;border-radius:4px;cursor:pointer}
+button:hover{background:#005582} button:disabled{background:#ccc}
+#timerStatus{margin-top:5px;color:#d32f2f;height:20px}
+</style></head><body>
+<h3>Zip Solver</h3><div id="status">Scanning...</div>
+<canvas id="gridCanvas" width="300" height="300"></canvas>
+<div class="controls"><label>Delay(s):<input type="number" id="solveDelay" value="0" min="0"></label><button id="autoSolveBtn">Auto Solve</button></div>
+<div id="timerStatus"></div><script src="popup.js"></script></body></html>
